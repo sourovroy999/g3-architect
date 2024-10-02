@@ -72,7 +72,7 @@ nav li a {
   color:#131313 ;
 }
 
-.banner-description{
+.text-lighy-grey{
   color: #727272;
 }
 
@@ -109,8 +109,8 @@ main{
   font-size: 2.8rem;
 
 }
-.teams-title .quick-list{
-        color: #727272;
+.teams-title {
+        
         font-weight: 1200;
 }
 .teams-title .text-features{
@@ -122,19 +122,50 @@ main{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive media querry */
 /* mobile devices */
 @media screen and (max-width: 576px) {
   header{
     padding: 20px;
   }
-  nav{
+  nav,
+  .teams-container
+  {
     flex-direction: column;
   }
+.teams-img-container{
+  grid-template-columns: 1fr;
 }
+.teams-content{
+  padding-right:20px ;
+  padding-left: 20px;
+}
+
+
+
+}
+
+
+
+
+
 /* tablet or medium devices */
 @media screen and (min-width:576px) and (max-width: 960px) {
-  nav{
+  nav, 
+  .teams-container
+  {
     flex-direction: column;
   }
   header{
